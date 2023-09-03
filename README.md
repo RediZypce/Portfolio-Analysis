@@ -33,6 +33,8 @@ Ever wondered about the perfect blend for your investment portfolio? With Python
     sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
     plt.title('Correlation Matrix Heatmap')
 
+![Heatmap](https://github.com/RediZypce/Portfolio-Analysis/assets/109640560/75357f48-8335-4818-aa78-498e67b92f58)
+
 
 ### Define portfolio weights and calculate portfolio variance.
 
@@ -103,6 +105,7 @@ Ever wondered about the perfect blend for your investment portfolio? With Python
     plt.xlabel('Volatility')
     plt.ylabel(' Returns')
 
+![image](https://github.com/RediZypce/Portfolio-Analysis/assets/109640560/457f3045-608f-4d32-b26e-308482c020c0)
 
 ### Find and plot the minimum volatility portfolio.
 
@@ -114,6 +117,7 @@ Ever wondered about the perfect blend for your investment portfolio? With Python
     plt.scatter(portfolios['Volatility'], portfolios['Returns'],marker='o', s=10, alpha=0.3)
     plt.scatter(min_vol_port[1], min_vol_port[0], color='r', marker='*', s=200)
 
+![image](https://github.com/RediZypce/Portfolio-Analysis/assets/109640560/2d6dd32a-2a86-4025-9cb4-79370d95f254)
 
 ### Find the optimal portfolio based on the Sharpe ratio and calculate the Sharpe ratio.
 
@@ -135,6 +139,7 @@ Ever wondered about the perfect blend for your investment portfolio? With Python
     plt.scatter(min_vol_port[1], min_vol_port[0], color='r', marker='*', s=200)
     plt.scatter(optimal_risky_port[1], optimal_risky_port[0], color='g', marker='*', s=200)
 
+![image](https://github.com/RediZypce/Portfolio-Analysis/assets/109640560/f6cd7e65-2363-4ba3-8166-aa587d3461c7)
 
 
 
