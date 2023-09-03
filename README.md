@@ -9,7 +9,7 @@ Max_SharpeRatio with Python
     import datetime as dt
     import yfinance as yf
 
-ticker = ["AAPL", "NKE", "GOOGL", 'AMZN', 'TSLA', 'NVDA', 'MNST', 'CB']
+    ticker = ["AAPL", "NKE", "GOOGL", 'AMZN', 'TSLA', 'NVDA', 'MNST', 'CB']
     start = dt.datetime(2012, 1, 1)
     end = dt.datetime(2023, 12, 31)
 
